@@ -31,7 +31,7 @@ $(function () {
       addHourElement.append(textArea);
 
       var saveButton = $('<button>');
-      saveButton.html('<i class="fas fa-save" aria-hidden="true"></i>💾');
+      saveButton.html('<i class="fas fa-save" aria-hidden="true"></i>');
       saveButton.addClass("btn saveBtn col-2 col-md-1");
       saveButton.attr('aria-label','save');
       addHourElement.append(saveButton);
